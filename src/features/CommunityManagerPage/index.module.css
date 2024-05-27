@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding: 0 0 15px 15px;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: #FF2E2E;
+    padding: 8px;
+
+
+}
+
+.headingText {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: IBM Plex Sans, serif;
+    color: white;
+    margin: 0;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    width: 30vw;
+}
+
+.tasks > div {
+    border: 1px solid blue;
+   background-color: white;
+    border-radius: 5px;
+}
+
+.icon {
+    width: 90px;
+    height: 10vh;
+    margin: 0;
+}
+
+.icon2 {
+    width: 50px;
+    height: 7vh;
+}
+.icon3{
+    width: 50px;
+    height: 10vh;
+
+}
+
+.iconText {
+    font-size: 20px;
+    font-weight: 400;
+    color: blue;
+    margin: 0;
+}
